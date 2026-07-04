@@ -5,7 +5,7 @@ import os
 class Settings(BaseSettings):
     APP_NAME: str = "F1 Intelligence Hub"
     APP_VERSION: str = "1.0.0"
-    DEBUG: bool = True
+    DEBUG: bool = False
     ALLOWED_ORIGINS: str = "http://localhost:5173,http://localhost:3000,https://f1-intelligence-hub-tan.vercel.app"
     CACHE_DIR: str = "./data/raw"
     FASTF1_CACHE_DIR: str = "./data/raw/fastf1_cache"
