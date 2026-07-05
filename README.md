@@ -43,28 +43,6 @@ frontend/
   package.json
 ```
 
-## Running Locally
-
-No `.env` is required for the backend — sensible defaults are baked in.
-
-**Backend** (terminal 1):
-```powershell
-cd backend
-venv\Scripts\activate
-uvicorn app.main:app --reload --port 8000
-```
-API docs available at `http://localhost:8000/docs`.
-
-**Frontend** (terminal 2 — must run at the same time as the backend):
-```powershell
-cd frontend
-npm install
-npm run dev
-```
-Runs at `http://localhost:5173`. Requires a `frontend/.env` (see `.env.example`):
-```
-VITE_API_URL=http://localhost:8000/api/v1
-```
 
 ## API Overview
 
