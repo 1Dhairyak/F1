@@ -75,3 +75,5 @@ All routes are prefixed with `/api/v1`.
 ## License
 
 Personal project — no license specified.
+
+<!-- updated 2026-07-22 -->
